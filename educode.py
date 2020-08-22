@@ -14,13 +14,30 @@
 # check whether file is closed
 #print (file.closed)
 
+
+#!/usr/bin/env python3
+
 import numpy as np
+#import pandas as pd
+#import matplotlib.pyplot as plt
+import matplotlib
+import sys
+print (sys.path)
 
-file = "/home/ecastillo/Downloads/seaslug.txt"
-
-data = np.loadtxt ("/home/ecastillo/Downloads/seaslug.txt", delimiter='\t', dtype=str)
-
-print(data[0])
 
 
+#file = "/home/ecastillo/Downloads/seaslug.txt"
+
+#data = np.loadtxt ("/home/ecastillo/Downloads/seaslug.txt", delimiter='\t', dtype=str)
+
+#print(data[0])
+
+#data_float = np.loadtxt("/home/ecastillo/Downloads/seaslug.txt", delimiter="\t", dtype=float, skiprows=1)
+
+#print (data[10])
+
+#plt.scatter(data_float[:, 0], data_float[:, 1])
+#plt.xlabel('time (min.)')
+#plt.ylabel('percentage of larvae')
+#plt.show()
 
