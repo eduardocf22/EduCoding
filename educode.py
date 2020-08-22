@@ -20,9 +20,9 @@
 import numpy as np
 #import pandas as pd
 #import matplotlib.pyplot as plt
-import matplotlib
-import sys
-print (sys.path)
+import matplotlib as pyplot
+#import sys
+#print (sys.path)
 
 
 
