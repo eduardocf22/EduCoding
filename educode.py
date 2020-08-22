@@ -1,4 +1,5 @@
-# Open a file: file
+# Open a file
+
 file = open ("/home/ecastillo/Downloads/seaslug.txt", mode = "r")
 
 # print import
