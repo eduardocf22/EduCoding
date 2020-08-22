@@ -1,4 +1,6 @@
+# Open a file: file
+file = open ("/home/ecastillo/Downloads/seaslug.txt", mode = "r")
 
- # example code controls versions
+# print import
+print (file.read())
 
-#new print (value, ...)
