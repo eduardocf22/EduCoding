@@ -13,4 +13,3 @@ file.close()
 
 # check whether file is closed
 print (file.closed)
-
