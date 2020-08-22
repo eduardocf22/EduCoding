@@ -1,2 +1,4 @@
 
- # examploe code controls versions
+ # example code controls versions
+
+ print (value, ...)
