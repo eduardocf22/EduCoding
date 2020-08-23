@@ -50,3 +50,10 @@ file = "/home/ecastillo/Downloads/titanic.csv"
 d= np.recfromcsv(file)
 print(d[:3])
 
+
+import pandas as pd
+filename= "winequality-red.csv"
+data= pd.read_csv(filename)
+data.head(n)
+
+
